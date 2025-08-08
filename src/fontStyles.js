@@ -1,5 +1,6 @@
-// Comprehensive font styles for fancy text generation
+// Comprehensive font styles for fancy text generation - Enhanced with more stylish options
 export const fancyTextStyles = [
+  // Basic Unicode Styles
   {
     name: "Bold",
     key: "bold",
@@ -46,7 +47,7 @@ export const fancyTextStyles = [
     name: "Double Struck",
     key: "double_struck",
     sample: "𝕙𝕖𝕝𝕝𝕠",
-    style: "𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫",
+    style: "𝕒𝕓𝕔𝕕𝖊𝖋𝖌𝖍𝖎𝖏𝖐𝖑𝖒𝖓𝖔𝖕𝖖𝖗𝖘𝖙𝖚𝖛𝖜𝖝𝖞𝖟",
     numbers: "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"
   },
   {
@@ -70,16 +71,11 @@ export const fancyTextStyles = [
     style: "𝚊𝚋𝚌𝚍𝚎𝚏𝚐𝚑𝚒𝚓𝚔𝚕𝚖𝚗𝚘𝚙𝚚𝚛𝚜𝚝𝚞𝚟𝚠𝚡𝚢𝚣",
     numbers: "𝟶𝟷𝟸𝟹𝟺𝟻𝟼𝟽𝟾𝟿"
   },
+  
+  // Stylish Decorative Fonts
   {
-    name: "Small Caps",
-    key: "small_caps",
-    sample: "ʜᴇʟʟᴏ",
-    style: "ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀꜱᴛᴜᴠᴡxʏᴢ",
-    numbers: "0123456789"
-  },
-  {
-    name: "Circled",
-    key: "circled",
+    name: "Bubble",
+    key: "bubble",
     sample: "ⓗⓔⓛⓛⓞ",
     style: "ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ",
     numbers: "⓪①②③④⑤⑥⑦⑧⑨"
@@ -92,554 +88,343 @@ export const fancyTextStyles = [
     numbers: "🄀🄁🄂🄃🄄🄅🄆🄇🄈🄉"
   },
   {
+    name: "Small Caps",
+    key: "small_caps",
+    sample: "ʜᴇʟʟᴏ",
+    style: "ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀꜱᴛᴜᴠᴡxʏᴢ",
+    numbers: "0123456789"
+  },
+  {
     name: "Fullwidth",
     key: "fullwidth",
     sample: "ｈｅｌｌｏ",
     style: "ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ",
     numbers: "０１２３４５６７８９"
   },
+  
+  // Creative Stylish Fonts
   {
-    name: "Upside Down",
-    key: "upside_down",
-    sample: "ɥǝllɐ",
-    style: "ɐqɔpǝɟƃɥᴉɾʞlɯuodbɹsʇnʌʍxʎz",
-    numbers: "0123456789"
+    name: "Aesthetic",
+    key: "aesthetic",
+    sample: "h҉e҉l҉l҉o҉",
+    style: "a҉b҉c҉d҉e҉f҉g҉h҉i҉j҉k҉l҉m҉n҉o҉p҉q҉r҉s҉t҉u҉v҉w҉x҉y҉z҉",
+    numbers: "0҉1҉2҉3҉4҉5҉6҉7҉8҉9҉"
   },
   {
-    name: "Starry",
-    key: "starry",
-    sample: "F͎͍͐⋆a⋆n⋆c⋆y⋆ Te⋆x⋆t⋆",
-    style: "F͎͍͐⋆a⋆n⋆c⋆y⋆ Te⋆x⋆t⋆",
-    numbers: "0123456789"
-  },
-  {
-    name: "Exclamation",
-    key: "exclamation",
-    sample: "❗ Fåñ¢¥ Têx† ❗",
-    style: "❗ Fåñ¢¥ Têx† ❗",
-    numbers: "0123456789"
-  },
-  {
-    name: "Gothic Bold",
-    key: "gothic_bold",
-    sample: "⅍ 𝕱𝖆𝖓𝖈𝖞 𝕿𝖊𝖝𝖙 ⅍",
-    style: "⅍ 𝕱𝖆𝖓𝖈𝖞 𝕿𝖊𝖝𝖙 ⅍",
-    numbers: "0123456789"
-  },
-  {
-    name: "Fish",
-    key: "fish",
-    sample: "🐡 F̴𝚊̷𝚗̷𝚌̷𝚢̷ T𝚎̷𝚡̷𝚝̷ 🐡",
-    style: "🐡 F̴𝚊̷𝚗̷𝚌̷𝚢̷ T𝚎̷𝚡̷𝚝̷ 🐡",
-    numbers: "0123456789"
-  },
-  {
-    name: "Underlined",
-    key: "underlined",
-    sample: "F̼[a̲̅][n̲̅][c̲̅][y̲̅] T[e̲̅][x̲̅][t̲̅]",
-    style: "F̼[a̲̅][n̲̅][c̲̅][y̲̅] T[e̲̅][x̲̅][t̲̅]",
-    numbers: "0123456789"
-  },
-  {
-    name: "Squared Bold",
-    key: "squared_bold",
-    sample: "🄵🄰🄽🄲🅈 🅃🄴🅇🅃",
-    style: "🄵🄰🄽🄲🅈 🅃🄴🅇🅃",
-    numbers: "🄀🄁🄂🄃🄄🄅🄆🄇🄈🄉"
-  },
-  {
-    name: "Kangaroo",
-    key: "kangaroo",
-    sample: "🦘 𝔽𝕒𝕟𝕔𝕪 𝕋𝕖𝕩𝕥 🦘",
-    style: "🦘 𝔽𝕒𝕟𝕔𝕪 𝕋𝕖𝕩𝕥 🦘",
-    numbers: "0123456789"
-  },
-  {
-    name: "Fancy Mix",
-    key: "fancy_mix",
-    sample: "F𝕒𝕟𝕔𝕪 T𝕖𝕩𝕥",
-    style: "F𝕒𝕟𝕔𝕪 T𝕖𝕩𝕥",
-    numbers: "0123456789"
-  },
-  {
-    name: "Cool",
-    key: "cool",
-    sample: "😎 Fαηςψ Tεx† 😎",
-    style: "😎 Fαηςψ Tεx† 😎",
-    numbers: "0123456789"
-  },
-  {
-    name: "Crown",
-    key: "crown",
-    sample: "ℕᏳℤ♛ F∿a∿n∿c∿y∿ Te∿x∿t∿ ℕᏳℤ♛",
-    style: "ℕᏳℤ♛ F∿a∿n∿c∿y∿ Te∿x∿t∿ ℕᏳℤ♛",
-    numbers: "0123456789"
-  },
-  {
-    name: "Boat",
-    key: "boat",
-    sample: "🛥️ Fåñ¢¥ Têx† 🛥️",
-    style: "🛥️ Fåñ¢¥ Têx† 🛥️",
-    numbers: "0123456789"
-  },
-  {
-    name: "Robot",
-    key: "robot",
-    sample: "🦾 Fαɳƈყ Tҽxƚ 🦾",
-    style: "🦾 Fαɳƈყ Tҽxƚ 🦾",
-    numbers: "0123456789"
-  },
-  {
-    name: "Surprised",
-    key: "surprised",
-    sample: "😮 ʄąŋƈყ ɬɛҳɬ 😮",
-    style: "😮 ʄąŋƈყ ɬɛҳɬ 😮",
-    numbers: "0123456789"
-  },
-  {
-    name: "Strawberry",
-    key: "strawberry",
-    sample: "🍓 Fапcч Tёжт 🍓",
-    style: "🍓 Fапcч Tёжт 🍓",
-    numbers: "0123456789"
-  },
-  {
-    name: "Box",
-    key: "box",
-    sample: "░ Fₐₙcy ₜₑₓₜ ░",
-    style: "░ Fₐₙcy ₜₑₓₜ ░",
-    numbers: "0123456789"
-  },
-  {
-    name: "Male",
-    key: "male",
-    sample: "♂️ Fa̾n̾c̾y̾ Te̾x̾t̾ ♂️",
-    style: "♂️ Fa̾n̾c̾y̾ Te̾x̾t̾ ♂️",
-    numbers: "0123456789"
-  },
-  {
-    name: "Arrow",
-    key: "arrow",
-    sample: "F￫a͎͍͐￫n͎͍͐￫c͎͍͐￫y͎͍͐￫ Te͎͍͐￫x͎͍͐￫t͎͍͐￫",
-    style: "F￫a͎͍͐￫n͎͍͐￫c͎͍͐￫y͎͍͐￫ Te͎͍͐￫x͎͍͐￫t͎͍͐￫",
-    numbers: "0123456789"
-  },
-  {
-    name: "Palm",
-    key: "palm",
-    sample: "🌴 Fₐₙcy ₜₑₓₜ 🌴",
-    style: "🌴 Fₐₙcy ₜₑₓₜ 🌴",
-    numbers: "0123456789"
-  },
-  {
-    name: "Cross",
-    key: "cross",
-    sample: "⨶ F𝕒ŇĆｙ Tε𝕏𝕋 ⨶",
-    style: "⨶ F𝕒ŇĆｙ Tε𝕏𝕋 ⨶",
-    numbers: "0123456789"
-  },
-  {
-    name: "Native",
-    key: "native",
-    sample: "ᎦᏗᏁፈᎩ ᏖᏋጀᏖ",
-    style: "ᎦᏗᏁፈᎩ ᏖᏋጀᏖ",
-    numbers: "0123456789"
-  },
-  {
-    name: "Umbrella",
-    key: "umbrella",
-    sample: "⛱️ 🅕🅐🅝🅒🅨 🅣🅔🅧🅣 ⛱️",
-    style: "⛱️ 🅕🅐🅝🅒🅨 🅣🅔🅧🅣 ⛱️",
-    numbers: "0123456789"
+    name: "Glitch",
+    key: "glitch",
+    sample: "h̴̢̛e̸̢̛l̵̢̛l̶̢̛ơ̷̢",
+    style: "a̴̢̛b̸̢̛c̵̢̛d̶̢̛e̷̢̛f̸̢̛g̴̢̛h̵̢̛i̶̢̛j̷̢̛k̸̢̛l̴̢̛m̵̢̛n̶̢̛ơ̷̢p̸̢̛q̴̢̛r̵̢̛s̶̢̛t̷̢̛ư̸̢v̴̢̛w̵̢̛x̶̢̛y̷̢̛z̸̢̛",
+    numbers: "0̴̢̛1̸̢̛2̵̢̛3̶̢̛4̷̢̛5̸̢̛6̴̢̛7̵̢̛8̶̢̛9̷̢̛"
   },
   {
     name: "Strikethrough",
     key: "strikethrough",
-    sample: "F̶a̴n̴c̴y̴ Te̴x̴t̴",
-    style: "F̶a̴n̴c̴y̴ Te̴x̴t̴",
+    sample: "h̶e̶l̶l̶o̶",
+    style: "a̶b̶c̶d̶e̶f̶g̶h̶i̶j̶k̶l̶m̶n̶o̶p̶q̶r̶s̶t̶u̶v̶w̶x̶y̶z̶",
+    numbers: "0̶1̶2̶3̶4̶5̶6̶7̶8̶9̶"
+  },
+  {
+    name: "Underline",
+    key: "underline",
+    sample: "h̲e̲l̲l̲o̲",
+    style: "a̲b̲c̲d̲e̲f̲g̲h̲i̲j̲k̲l̲m̲n̲o̲p̲q̲r̲s̲t̲u̲v̲w̲x̲y̲z̲",
+    numbers: "0̲1̲2̲3̲4̲5̲6̲7̲8̲9̲"
+  },
+  {
+    name: "Dotted",
+    key: "dotted",
+    sample: "ḧëḷḷö",
+    style: "äḅċḋëḟġḧïjḳḷṁṅöṗqṛṡẗüṿẅẍÿż",
+    numbers: "0̤1̤2̤3̤4̤5̤6̤7̤8̤9̤"
+  },
+  {
+    name: "Wavy",
+    key: "wavy",
+    sample: "h̃ẽl̃l̃õ",
+    style: "ãb̃c̃d̃ẽf̃g̃h̃ĩj̃k̃l̃m̃ñõp̃q̃r̃s̃t̃ũṽw̃x̃ỹz̃",
+    numbers: "0̃1̃2̃3̃4̃5̃6̃7̃8̃9̃"
+  },
+  {
+    name: "Cursive",
+    key: "cursive",
+    sample: "𝓱𝓮𝓵𝓵𝓸",
+    style: "𝓪𝓫𝓬𝓭𝓮𝓯𝓰𝓱𝓲𝓳𝓴𝓵𝓶𝓷𝓸𝓹𝓺𝓻𝓼𝓽𝓾𝓿𝔀𝔁𝔂𝔃",
+    numbers: "0123456789"
+  },
+  
+  // Fancy Decorative Styles
+  {
+    name: "Fire",
+    key: "fire",
+    sample: "🔥h҉e҉l҉l҉o҉🔥",
+    style: "🔥a҉b҉c҉d҉e҉f҉g҉h҉i҉j҉k҉l҉m҉n҉o҉p҉q҉r҉s҉t҉u҉v҉w҉x҉y҉z҉🔥",
+    numbers: "🔥0҉1҉2҉3҉4҉5҉6҉7҉8҉9҉🔥"
+  },
+  {
+    name: "Star",
+    key: "star",
+    sample: "⭐h⭐e⭐l⭐l⭐o⭐",
+    style: "⭐a⭐b⭐c⭐d⭐e⭐f⭐g⭐h⭐i⭐j⭐k⭐l⭐m⭐n⭐o⭐p⭐q⭐r⭐s⭐t⭐u⭐v⭐w⭐x⭐y⭐z⭐",
+    numbers: "⭐0⭐1⭐2⭐3⭐4⭐5⭐6⭐7⭐8⭐9⭐"
+  },
+  {
+    name: "Hearts",
+    key: "hearts",
+    sample: "♥h♥e♥l♥l♥o♥",
+    style: "♥a♥b♥c♥d♥e♥f♥g♥h♥i♥j♥k♥l♥m♥n♥o♥p♥q♥r♥s♥t♥u♥v♥w♥x♥y♥z♥",
+    numbers: "♥0♥1♥2♥3♥4♥5♥6♥7♥8♥9♥"
+  },
+  {
+    name: "Diamonds",
+    key: "diamonds",
+    sample: "♦h♦e♦l♦l♦o♦",
+    style: "♦a♦b♦c♦d♦e♦f♦g♦h♦i♦j♦k♦l♦m♦n♦o♦p♦q♦r♦s♦t♦u♦v♦w♦x♦y♦z♦",
+    numbers: "♦0♦1♦2♦3♦4♦5♦6♦7♦8♦9♦"
+  },
+  {
+    name: "Sparkles",
+    key: "sparkles",
+    sample: "✨h✨e✨l✨l✨o✨",
+    style: "✨a✨b✨c✨d✨e✨f✨g✨h✨i✨j✨k✨l✨m✨n✨o✨p✨q✨r✨s✨t✨u✨v✨w✨x✨y✨z✨",
+    numbers: "✨0✨1✨2✨3✨4✨5✨6✨7✨8✨9✨"
+  },
+  {
+    name: "Lightning",
+    key: "lightning",
+    sample: "⚡h⚡e⚡l⚡l⚡o⚡",
+    style: "⚡a⚡b⚡c⚡d⚡e⚡f⚡g⚡h⚡i⚡j⚡k⚡l⚡m⚡n⚡o⚡p⚡q⚡r⚡s⚡t⚡u⚡v⚡w⚡x⚡y⚡z⚡",
+    numbers: "⚡0⚡1⚡2⚡3⚡4⚡5⚡6⚡7⚡8⚡9⚡"
+  },
+  {
+    name: "Crown",
+    key: "crown",
+    sample: "👑h👑e👑l👑l👑o👑",
+    style: "👑a👑b👑c👑d👑e👑f👑g👑h👑i👑j👑k👑l👑m👑n👑o👑p👑q👑r👑s👑t👑u👑v👑w👑x👑y👑z👑",
+    numbers: "👑0👑1👑2👑3👑4👑5👑6👑7👑8👑9👑"
+  },
+  {
+    name: "Flower",
+    key: "flower",
+    sample: "🌸h🌸e🌸l🌸l🌸o🌸",
+    style: "🌸a🌸b🌸c🌸d🌸e🌸f🌸g🌸h🌸i🌸j🌸k🌸l🌸m🌸n🌸o🌸p🌸q🌸r🌸s🌸t🌸u🌸v🌸w🌸x🌸y🌸z🌸",
+    numbers: "🌸0🌸1🌸2🌸3🌸4🌸5🌸6🌸7🌸8🌸9🌸"
+  },
+  
+  // Bracket Styles
+  {
+    name: "Square Brackets",
+    key: "square_brackets",
+    sample: "[h][e][l][l][o]",
+    style: "[a][b][c][d][e][f][g][h][i][j][k][l][m][n][o][p][q][r][s][t][u][v][w][x][y][z]",
+    numbers: "[0][1][2][3][4][5][6][7][8][9]"
+  },
+  {
+    name: "Parentheses",
+    key: "parentheses",
+    sample: "(h)(e)(l)(l)(o)",
+    style: "(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)(m)(n)(o)(p)(q)(r)(s)(t)(u)(v)(w)(x)(y)(z)",
+    numbers: "(0)(1)(2)(3)(4)(5)(6)(7)(8)(9)"
+  },
+  {
+    name: "Curly Brackets",
+    key: "curly_brackets",
+    sample: "{h}{e}{l}{l}{o}",
+    style: "{a}{b}{c}{d}{e}{f}{g}{h}{i}{j}{k}{l}{m}{n}{o}{p}{q}{r}{s}{t}{u}{v}{w}{x}{y}{z}",
+    numbers: "{0}{1}{2}{3}{4}{5}{6}{7}{8}{9}"
+  },
+  {
+    name: "Angle Brackets",
+    key: "angle_brackets",
+    sample: "⟨h⟩⟨e⟩⟨l⟩⟨l⟩⟨o⟩",
+    style: "⟨a⟩⟨b⟩⟨c⟩⟨d⟩⟨e⟩⟨f⟩⟨g⟩⟨h⟩⟨i⟩⟨j⟩⟨k⟩⟨l⟩⟨m⟩⟨n⟩⟨o⟩⟨p⟩⟨q⟩⟨r⟩⟨s⟩⟨t⟩⟨u⟩⟨v⟩⟨w⟩⟨x⟩⟨y⟩⟨z⟩",
+    numbers: "⟨0⟩⟨1⟩⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟨6⟩⟨7⟩⟨8⟩⟨9⟩"
+  },
+  
+  // Special Unicode Styles
+  {
+    name: "Upside Down",
+    key: "upside_down",
+    sample: "ollǝɥ",
+    style: "ɐqɔpǝɟƃɥᴉɾʞlɯuodbɹsʇnʌʍxʎz",
     numbers: "0123456789"
   },
   {
-    name: "Art",
-    key: "art",
-    sample: "⎛ΣℜŦ⎞ 千卂几匚ㄚ ㄒ乇乂ㄒ ⎛ΣℜŦ⎞",
-    style: "⎛ΣℜŦ⎞ 千卂几匚ㄚ ㄒ乇乂ㄒ ⎛ΣℜŦ⎞",
+    name: "Mirror",
+    key: "mirror",
+    sample: "o⅃⅃ɘH",
+    style: "ɒdɔbɘʇϱʜiįʞ⅃mᴎoqpɿƨɟυvwxγz",
     numbers: "0123456789"
   },
   {
-    name: "Boxed",
-    key: "boxed",
-    sample: "⃤ F⧽⧼a̼⧽⧼n̼⧽⧼c̼⧽⧼y̼⧽ T⧼e̼⧽⧼x̼⧽⧼t̼⧽ ⃤",
-    style: "⃤ F⧽⧼a̼⧽⧼n̼⧽⧼c̼⧽⧼y̼⧽ T⧼e̼⧽⧼x̼⧽⧼t̼⧽ ⃤",
-    numbers: "0123456789"
+    name: "Zalgo",
+    key: "zalgo",
+    sample: "h̸̢̛̗̰̮̰̮̰̮e̸̢̛̗̰̮̰̮̰̮l̸̢̛̗̰̮̰̮̰̮l̸̢̛̗̰̮̰̮̰̮ơ̸̢̗̰̮̰̮̰̮",
+    style: "a̸̢̛̗̰̮̰̮̰̮b̸̢̛̗̰̮̰̮̰̮c̸̢̛̗̰̮̰̮̰̮d̸̢̛̗̰̮̰̮̰̮e̸̢̛̗̰̮̰̮̰̮f̸̢̛̗̰̮̰̮̰̮g̸̢̛̗̰̮̰̮̰̮h̸̢̛̗̰̮̰̮̰̮i̸̢̛̗̰̮̰̮̰̮j̸̢̛̗̰̮̰̮̰̮k̸̢̛̗̰̮̰̮̰̮l̸̢̛̗̰̮̰̮̰̮m̸̢̛̗̰̮̰̮̰̮n̸̢̛̗̰̮̰̮̰̮ơ̸̢̗̰̮̰̮̰̮p̸̢̛̗̰̮̰̮̰̮q̸̢̛̗̰̮̰̮̰̮r̸̢̛̗̰̮̰̮̰̮s̸̢̛̗̰̮̰̮̰̮t̸̢̛̗̰̮̰̮̰̮ư̸̢̗̰̮̰̮̰̮v̸̢̛̗̰̮̰̮̰̮w̸̢̛̗̰̮̰̮̰̮x̸̢̛̗̰̮̰̮̰̮y̸̢̛̗̰̮̰̮̰̮z̸̢̛̗̰̮̰̮̰̮",
+    numbers: "0̸̢̛̗̰̮̰̮̰̮1̸̢̛̗̰̮̰̮̰̮2̸̢̛̗̰̮̰̮̰̮3̸̢̛̗̰̮̰̮̰̮4̸̢̛̗̰̮̰̮̰̮5̸̢̛̗̰̮̰̮̰̮6̸̢̛̗̰̮̰̮̰̮7̸̢̛̗̰̮̰̮̰̮8̸̢̛̗̰̮̰̮̰̮9̸̢̛̗̰̮̰̮̰̮"
   },
+  
+  // Asian-inspired Styles
   {
-    name: "Upside Down Full",
-    key: "upside_down_full",
-    sample: "Fɐuɔʎ Tǝxʇ",
-    style: "Fɐuɔʎ Tǝxʇ",
-    numbers: "0123456789"
-  },
-  {
-    name: "Police",
-    key: "police",
-    sample: "🚔 ₣₳₦₵Ɏ ₮ɆӾ₮ 🚔",
-    style: "🚔 ₣₳₦₵Ɏ ₮ɆӾ₮ 🚔",
-    numbers: "0123456789"
-  },
-  {
-    name: "Heart",
-    key: "heart",
-    sample: "❤️ FⒶ几𝕔𝔂 TẸｘ𝐭 ❤️",
-    style: "❤️ FⒶ几𝕔𝔂 TẸｘ𝐭 ❤️",
-    numbers: "0123456789"
-  },
-  {
-    name: "Cool Face",
-    key: "cool_face",
-    sample: "(▀̿Ĺ̯▀̿ ̿) F͎⫶å⫶n̊⫶c̊⫶ẙ⫶ Te̊⫶x̊⫶t̊⫶ (▀̿Ĺ̯▀̿ ̿)",
-    style: "(▀̿Ĺ̯▀̿ ̿) F͎⫶å⫶n̊⫶c̊⫶ẙ⫶ Te̊⫶x̊⫶t̊⫶ (▀̿Ĺ̯▀̿ ̿)",
-    numbers: "0123456789"
-  },
-  {
-    name: "Princess",
-    key: "princess",
-    sample: "👸 F『a』『n』『c』『y』 T『e』『x』『t』 👸",
-    style: "👸 F『a』『n』『c』『y』 T『e』『x』『t』 👸",
-    numbers: "0123456789"
-  },
-  {
-    name: "Math",
-    key: "math",
-    sample: "𝐹𝒶𝓃𝒸𝓎 𝒯𝑒𝓍𝓉",
-    style: "𝐹𝒶𝓃𝒸𝓎 𝒯𝑒𝓍𝓉",
-    numbers: "0123456789"
-  },
-  {
-    name: "Greek",
-    key: "greek",
-    sample: "FάŇｃу T𝔼𝕏𝐭",
-    style: "FάŇｃу T𝔼𝕏𝐭",
-    numbers: "0123456789"
-  },
-  {
-    name: "Hook",
-    key: "hook",
-    sample: "℥ Fǟռƈʏ TɛӼȶ ℥",
-    style: "℥ Fǟռƈʏ TɛӼȶ ℥",
-    numbers: "0123456789"
-  },
-  {
-    name: "Cloud",
-    key: "cloud",
-    sample: "☁ FΛПᄃY ƬΣXƬ ☁",
-    style: "☁ FΛПᄃY ƬΣXƬ ☁",
-    numbers: "0123456789"
-  },
-  {
-    name: "Georgian",
-    key: "georgian",
-    sample: "Fმῆეყ Tპჯན",
-    style: "Fმῆეყ Tპჯན",
-    numbers: "0123456789"
-  },
-  {
-    name: "Bracket",
-    key: "bracket",
-    sample: "『 F̊⊶a⊶n⊶c⊶y T⊶e⊶x⊶t 『",
-    style: "『 F̊⊶a⊶n⊶c⊶y T⊶e⊶x⊶t 『",
-    numbers: "0123456789"
-  },
-  {
-    name: "Wave",
-    key: "wave",
-    sample: "F͛≋a≋n≋c≋y T≋e≋x≋t",
-    style: "F͛≋a≋n≋c≋y T≋e≋x≋t",
-    numbers: "0123456789"
-  },
-  {
-    name: "Section",
-    key: "section",
-    sample: "§ F𝚊𝚗𝚌𝚢 T𝚎𝚡𝚝 §",
-    style: "§ F𝚊𝚗𝚌𝚢 T𝚎𝚡𝚝 §",
-    numbers: "0123456789"
-  },
-  {
-    name: "Yen",
-    key: "yen",
-    sample: "【¥Ŧ】 ᶠᵃⁿᶜʸ ᵀᵉˣᵗ 【¥Ŧ】",
-    style: "【¥Ŧ】 ᶠᵃⁿᶜʸ ᵀᵉˣᵗ 【¥Ŧ】",
-    numbers: "0123456789"
-  },
-  {
-    name: "Italic Small",
-    key: "italic_small",
-    sample: "ƒαη¢у тєχт",
-    style: "ƒαη¢у тєχт",
-    numbers: "0123456789"
-  },
-  {
-    name: "Cherry",
-    key: "cherry",
-    sample: "🍒 FคℕＣ𝕪 TⓔⓍ𝓉 🍒",
-    style: "🍒 FคℕＣ𝕪 TⓔⓍ𝓉 🍒",
-    numbers: "0123456789"
-  },
-  {
-    name: "Symbol",
-    key: "symbol",
-    sample: "ภ₮℘♜ F░a░n░c░y T░e░x░t ภ₮℘♜",
-    style: "ภ₮℘♜ F░a░n░c░y T░e░x░t ภ₮℘♜",
-    numbers: "0123456789"
-  },
-  {
-    name: "Rune",
-    key: "rune",
-    sample: "ᛋ 🄵Ɐ𝐍ᶜү 𝔱ε𝐗т ᛋ",
-    style: "ᛋ 🄵Ɐ𝐍ᶜү 𝔱ε𝐗т ᛋ",
-    numbers: "0123456789"
-  },
-  {
-    name: "Thai",
-    key: "thai",
-    sample: "FคՈ८ע T૯૪੮",
-    style: "FคՈ८ע T૯૪੮",
-    numbers: "0123456789"
-  },
-  {
-    name: "OK",
-    key: "ok",
-    sample: "👌 F𝔞𝔫𝔠𝔶 T𝔢𝔵𝔱 👌",
-    style: "👌 F𝔞𝔫𝔠𝔶 T𝔢𝔵𝔱 👌",
-    numbers: "0123456789"
-  },
-  {
-    name: "Greek Small",
-    key: "greek_small",
-    sample: "Fαɳƈყ Tҽxƚ",
-    style: "Fαɳƈყ Tҽxƚ",
-    numbers: "0123456789"
-  },
-  {
-    name: "Crying",
-    key: "crying",
-    sample: "😿 Fa̷n̷c̷y̷ Te̷x̷t̷ 😿",
-    style: "😿 Fa̷n̷c̷y̷ Te̷x̷t̷ 😿",
-    numbers: "0123456789"
-  },
-  {
-    name: "Boxed Bold",
-    key: "boxed_bold",
-    sample: "▤ F🄰🄽🄲🅈 T🄴🅇🅃 ▤",
-    style: "▤ F🄰🄽🄲🅈 T🄴🅇🅃 ▤",
+    name: "Japanese",
+    key: "japanese",
+    sample: "んモ乚乚の",
+    style: "ム乃ᄃり乇キムんノﾌズ乚ᄊ刀のｱゐ尺丂ｲひ√Wﾒﾘ乙",
     numbers: "0123456789"
   },
   {
     name: "Chinese",
     key: "chinese",
-    sample: "F卂几匚ㄚ T乇乂ㄒ",
-    style: "F卂几匚ㄚ T乇乂ㄒ",
-    numbers: "0123456789"
-  },
-  {
-    name: "Thai Small",
-    key: "thai_small",
-    sample: "fคຖ¢ฯ tēxt",
-    style: "fคຖ¢ฯ tēxt",
-    numbers: "0123456789"
-  },
-  {
-    name: "Clock",
-    key: "clock",
-    sample: "🕜 F⃣【a】【n】【c】【y】 T【e】【x】【t】 🕜",
-    style: "🕜 F⃣【a】【n】【c】【y】 T【e】【x】【t】 🕜",
-    numbers: "0123456789"
-  },
-  {
-    name: "Wave Under",
-    key: "wave_under",
-    sample: "🌀 F̷a̲n̲c̲y̲ Te̲x̲t̲ 🌀",
-    style: "🌀 F̷a̲n̲c̲y̲ Te̲x̲t̲ 🌀",
-    numbers: "0123456789"
-  },
-  {
-    name: "Native Bold",
-    key: "native_bold",
-    sample: "ᖴᗩᘉᑢᖻ ᖶᘿ᙭ᖶ",
-    style: "ᖴᗩᘉᑢᖻ ᖶᘿ᙭ᖶ",
-    numbers: "0123456789"
-  },
-  {
-    name: "Mushroom",
-    key: "mushroom",
-    sample: "🍄 𝗙𝗮𝗻𝗰𝘆 𝗧𝗲𝘅𝘁 🍄",
-    style: "🍄 𝗙𝗮𝗻𝗰𝘆 𝗧𝗲𝘅𝘁 🍄",
-    numbers: "0123456789"
-  },
-  {
-    name: "Temple",
-    key: "temple",
-    sample: "🕍 Fa̶n̶c̶y̶ Te̶x̶t̶ 🕍",
-    style: "🕍 Fa̶n̶c̶y̶ Te̶x̶t̶ 🕍",
-    numbers: "0123456789"
-  },
-  {
-    name: "Trademark",
-    key: "trademark",
-    sample: "™ F͓̽a͎n͎c͎y͎ Te͎x͎t͎ ™",
-    style: "™ F͓̽a͎n͎c͎y͎ Te͎x͎t͎ ™",
-    numbers: "0123456789"
-  },
-  {
-    name: "Clock 2",
-    key: "clock_2",
-    sample: "🕚 𝙵𝚊𝚗𝚌𝚢 𝚃𝚎𝚡𝚝 🕚",
-    style: "🕚 𝙵𝚊𝚗𝚌𝚢 𝚃𝚎𝚡𝚝 🕚",
-    numbers: "0123456789"
-  },
-  {
-    name: "Wave Face",
-    key: "wave_face",
-    sample: "＼(^-^)／ F𝔞Ňⓒ𝕪 T𝕖乂т ＼(^-^)／",
-    style: "＼(^-^)／ F𝔞Ňⓒ𝕪 T𝕖乂т ＼(^-^)／",
-    numbers: "0123456789"
-  },
-  {
-    name: "Timer",
-    key: "timer",
-    sample: "⏲️ Fa͎n͎c͎y͎ Te͎x͎t͎ ⏲️",
-    style: "⏲️ Fa͎n͎c͎y͎ Te͎x͎t͎ ⏲️",
-    numbers: "0123456789"
-  },
-  {
-    name: "Native Caps",
-    key: "native_caps",
-    sample: "ᖴᗩᑎᑕY TE᙭T",
-    style: "ᖴᗩᑎᑕY TE᙭T",
-    numbers: "0123456789"
-  },
-  {
-    name: "Temple 2",
-    key: "temple_2",
-    sample: "🕍 Ŧคภςץ ՇєאՇ 🕍",
-    style: "🕍 Ŧคภςץ ՇєאՇ 🕍",
-    numbers: "0123456789"
-  },
-  {
-    name: "Mercury",
-    key: "mercury",
-    sample: "♏ F̷ᴀɴᴄʏ Tᴇxᴛ ♏",
-    style: "♏ F̷ᴀɴᴄʏ Tᴇxᴛ ♏",
-    numbers: "0123456789"
-  },
-  {
-    name: "Wave Bold",
-    key: "wave_bold",
-    sample: "F̾a͓̽n͓̽c͓̽y͓̽ Te͓̽x͓̽t͓̽",
-    style: "F̾a͓̽n͓̽c͓̽y͓̽ Te͓̽x͓̽t͓̽",
-    numbers: "0123456789"
-  },
-  {
-    name: "Train",
-    key: "train",
-    sample: "🚝 𝔽𝕒𝕟𝕔𝕪 𝕋𝕖𝕩𝕥 🚝",
-    style: "🚝 𝔽𝕒𝕟𝕔𝕪 𝕋𝕖𝕩𝕥 🚝",
-    numbers: "0123456789"
-  },
-  {
-    name: "Underlined Bold",
-    key: "underlined_bold",
-    sample: "F̳a͢n͢c͢y͢ Te͢x͢t͢",
-    style: "F̳a͢n͢c͢y͢ Te͢x͢t͢",
-    numbers: "0123456789"
-  },
-  {
-    name: "Knight",
-    key: "knight",
-    sample: "♞ £åñ¢¥ †êx† ♞",
-    style: "♞ £åñ¢¥ †êx† ♞",
-    numbers: "0123456789"
-  },
-  {
-    name: "Paragraph",
-    key: "paragraph",
-    sample: "⁆ F𝐚𝐧𝐜𝐲 T𝐞𝐱𝐭 ⁆",
-    style: "⁆ F𝐚𝐧𝐜𝐲 T𝐞𝐱𝐭 ⁆",
-    numbers: "0123456789"
-  },
-  {
-    name: "Polish",
-    key: "polish",
-    sample: "Fąŋƈყ Tɛҳɬ",
-    style: "Fąŋƈყ Tɛҳɬ",
-    numbers: "0123456789"
-  },
-  {
-    name: "Temple 3",
-    key: "temple_3",
-    sample: "🕍 Fa͙n͙c͙y͙ Te͙x͙t͙ 🕍",
-    style: "🕍 Fa͙n͙c͙y͙ Te͙x͙t͙ 🕍",
+    sample: "卄乇ㄥㄥㄖ",
+    style: "卂乃匚ᗪ乇千Ꮆ卄丨ﾌҜㄥ爪几ㄖ卩Ɋ尺丂ㄒㄩᐯ山乂ㄚ乙",
     numbers: "0123456789"
   },
   {
     name: "Korean",
     key: "korean",
-    sample: "Fꋬꋊꉔꌦ Tꏂꉧ꓄",
-    style: "Fꋬꋊꉔꌦ Tꏂꉧ꓄",
+    sample: "ㅗ모ㅣㅣ오",
+    style: "ㅏㅂㅊㄷ모ㅍㅎㅗㅣㅈㅋㅣㅁㄴ오ㅍㅂㄱㅅㅌㅜㅂㅈㅌㅛㅈ",
+    numbers: "0123456789"
+  },
+  
+  // Geometric Styles
+  {
+    name: "Triangles",
+    key: "triangles",
+    sample: "▲h▲e▲l▲l▲o▲",
+    style: "▲a▲b▲c▲d▲e▲f▲g▲h▲i▲j▲k▲l▲m▲n▲o▲p▲q▲r▲s▲t▲u▲v▲w▲x▲y▲z▲",
+    numbers: "▲0▲1▲2▲3▲4▲5▲6▲7▲8▲9▲"
+  },
+  {
+    name: "Circles",
+    key: "circles",
+    sample: "●h●e●l●l●o●",
+    style: "●a●b●c●d●e●f●g●h●i●j●k●l●m●n●o●p●q●r●s●t●u●v●w●x●y●z●",
+    numbers: "●0●1●2●3●4●5●6●7●8●9●"
+  },
+  {
+    name: "Squares",
+    key: "squares",
+    sample: "■h■e■l■l■o■",
+    style: "■a■b■c■d■e■f■g■h■i■j■k■l■m■n■o■p■q■r■s■t■u■v■w■x■y■z■",
+    numbers: "■0■1■2■3■4■5■6■7■8■9■"
+  },
+  
+  // Fancy Separator Styles
+  {
+    name: "Arrows",
+    key: "arrows",
+    sample: "→h→e→l→l→o→",
+    style: "→a→b→c→d→e→f→g→h→i→j→k→l→m→n→o→p→q→r→s→t→u→v→w→x→y→z→",
+    numbers: "→0→1→2→3→4→5→6→7→8→9→"
+  },
+  {
+    name: "Waves",
+    key: "waves",
+    sample: "~h~e~l~l~o~",
+    style: "~a~b~c~d~e~f~g~h~i~j~k~l~m~n~o~p~q~r~s~t~u~v~w~x~y~z~",
+    numbers: "~0~1~2~3~4~5~6~7~8~9~"
+  },
+  {
+    name: "Dots",
+    key: "dots",
+    sample: "•h•e•l•l•o•",
+    style: "•a•b•c•d•e•f•g•h•i•j•k•l•m•n•o•p•q•r•s•t•u•v•w•x•y•z•",
+    numbers: "•0•1•2•3•4•5•6•7•8•9•"
+  },
+  {
+    name: "Lines",
+    key: "lines",
+    sample: "|h|e|l|l|o|",
+    style: "|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|",
+    numbers: "|0|1|2|3|4|5|6|7|8|9|"
+  },
+  
+  // Stylish Combinations
+  {
+    name: "Neon",
+    key: "neon",
+    sample: "🌟h҉e҉l҉l҉o҉🌟",
+    style: "🌟a҉b҉c҉d҉e҉f҉g҉h҉i҉j҉k҉l҉m҉n҉o҉p҉q҉r҉s҉t҉u҉v҉w҉x҉y҉z҉🌟",
+    numbers: "🌟0҉1҉2҉3҉4҉5҉6҉7҉8҉9҉🌟"
+  },
+  {
+    name: "Galaxy",
+    key: "galaxy",
+    sample: "🌌h̴e̴l̴l̴o̴🌌",
+    style: "🌌a̴b̴c̴d̴e̴f̴g̴h̴i̴j̴k̴l̴m̴n̴o̴p̴q̴r̴s̴t̴u̴v̴w̴x̴y̴z̴🌌",
+    numbers: "🌌0̴1̴2̴3̴4̴5̴6̴7̴8̴9̴🌌"
+  },
+  {
+    name: "Rainbow",
+    key: "rainbow",
+    sample: "🌈h🌈e🌈l🌈l🌈o🌈",
+    style: "🌈a🌈b🌈c🌈d🌈e🌈f🌈g🌈h🌈i🌈j🌈k🌈l🌈m🌈n🌈o🌈p🌈q🌈r🌈s🌈t🌈u🌈v🌈w🌈x🌈y🌈z🌈",
+    numbers: "🌈0🌈1🌈2🌈3🌈4🌈5🌈6🌈7🌈8🌈9🌈"
+  },
+  {
+    name: "Ice",
+    key: "ice",
+    sample: "❄️h̊❄️e̊❄️l̊❄️l̊❄️o̊❄️",
+    style: "❄️å❄️b̊❄️c̊❄️d̊❄️e̊❄️f̊❄️g̊❄️h̊❄️i̊❄️j̊❄️k̊❄️l̊❄️m̊❄️n̊❄️o̊❄️p̊❄️q̊❄️r̊❄️s̊❄️t̊❄️ů❄️v̊❄️ẘ❄️x̊❄️ẙ❄️z̊❄️",
+    numbers: "❄️0̊❄️1̊❄️2̊❄️3̊❄️4̊❄️5̊❄️6̊❄️7̊❄️8̊❄️9̊❄️"
+  },
+  {
+    name: "Ocean",
+    key: "ocean",
+    sample: "🌊h̃🌊ẽ🌊l̃🌊l̃🌊õ🌊",
+    style: "🌊ã🌊b̃🌊c̃🌊d̃🌊ẽ🌊f̃🌊g̃🌊h̃🌊ĩ🌊j̃🌊k̃🌊l̃🌊m̃🌊ñ🌊õ🌊p̃🌊q̃🌊r̃🌊s̃🌊t̃🌊ũ🌊ṽ🌊w̃🌊x̃🌊ỹ🌊z̃🌊",
+    numbers: "🌊0̃🌊1̃🌊2̃🌊3̃🌊4̃🌊5̃🌊6̃🌊7̃🌊8̃🌊9̃🌊"
+  },
+  
+  // Gaming Styles
+  {
+    name: "Pixel",
+    key: "pixel",
+    sample: "▓h▓e▓l▓l▓o▓",
+    style: "▓a▓b▓c▓d▓e▓f▓g▓h▓i▓j▓k▓l▓m▓n▓o▓p▓q▓r▓s▓t▓u▓v▓w▓x▓y▓z▓",
+    numbers: "▓0▓1▓2▓3▓4▓5▓6▓7▓8▓9▓"
+  },
+  {
+    name: "Cyber",
+    key: "cyber",
+    sample: "⟨h⟩⟨e⟩⟨l⟩⟨l⟩⟨o⟩",
+    style: "⟨a⟩⟨b⟩⟨c⟩⟨d⟩⟨e⟩⟨f⟩⟨g⟩⟨h⟩⟨i⟩⟨j⟩⟨k⟩⟨l⟩⟨m⟩⟨n⟩⟨o⟩⟨p⟩⟨q⟩⟨r⟩⟨s⟩⟨t⟩⟨u⟩⟨v⟩⟨w⟩⟨x⟩⟨y⟩⟨z⟩",
+    numbers: "⟨0⟩⟨1⟩⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟨6⟩⟨7⟩⟨8⟩⟨9⟩"
+  },
+  {
+    name: "Matrix",
+    key: "matrix",
+    sample: "ℌ𝔢𝔩𝔩𝔬",
+    style: "𝔞𝔟𝔠𝔡𝔢𝔣𝔤𝔥𝔦𝔧𝔨𝔩𝔪𝔫𝔬𝔭𝔮𝔯𝔰𝔱𝔲𝔳𝔴𝔵𝔶𝔷",
+    numbers: "0123456789"
+  },
+  
+  // Elegant Styles
+  {
+    name: "Royal",
+    key: "royal",
+    sample: "♔h♔e♔l♔l♔o♔",
+    style: "♔a♔b♔c♔d♔e♔f♔g♔h♔i♔j♔k♔l♔m♔n♔o♔p♔q♔r♔s♔t♔u♔v♔w♔x♔y♔z♔",
+    numbers: "♔0♔1♔2♔3♔4♔5♔6♔7♔8♔9♔"
+  },
+  {
+    name: "Elegant",
+    key: "elegant",
+    sample: "𝒽𝑒𝓁𝓁𝑜",
+    style: "𝒶𝒷𝒸𝒹𝑒𝒻𝑔𝒽𝒾𝒿𝓀𝓁𝓂𝓃𝑜𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓎𝓏",
     numbers: "0123456789"
   },
   {
-    name: "Italic Light",
-    key: "italic_light",
-    sample: "⬱ 𝘍𝘢𝘯𝘤𝘺 𝘛𝘦𝘹𝘵 ⬱",
-    style: "⬱ 𝘍𝘢𝘯𝘤𝘺 𝘛𝘦𝘹𝘵 ⬱",
-    numbers: "0123456789"
-  },
-  {
-    name: "Chinese 2",
-    key: "chinese_2",
-    sample: "乍闩刀꒟ﾘ 丁乇义丁",
-    style: "乍闩刀꒟ﾘ 丁乇义丁",
-    numbers: "0123456789"
-  },
-  {
-    name: "Clover",
-    key: "clover",
-    sample: "☘ Fαη¢у Tєχт ☘",
-    style: "☘ Fαη¢у Tєχт ☘",
-    numbers: "0123456789"
-  },
-  {
-    name: "Cloud 2",
-    key: "cloud_2",
-    sample: "🌥️ F⦎⦏â⦎⦏n̂⦎⦏ĉ⦎⦏ŷ⦎ T⦏ê⦎⦏x̂⦎⦏t̂⦎ 🌥️",
-    style: "🌥️ F⦎⦏â⦎⦏n̂⦎⦏ĉ⦎⦏ŷ⦎ T⦏ê⦎⦏x̂⦎⦏t̂⦎ 🌥️",
-    numbers: "0123456789"
-  },
-  {
-    name: "Train 2",
-    key: "train_2",
-    sample: "🚟 ｷﾑ刀ᄃﾘ ｲ乇ﾒｲ 🚟",
-    style: "🚟 ｷﾑ刀ᄃﾘ ｲ乇ﾒｲ 🚟",
-    numbers: "0123456789"
-  },
-  {
-    name: "Currency",
-    key: "currency",
-    sample: "₠ Fᴀɴᴄʏ Tᴇxᴛ ₠",
-    style: "₠ Fᴀɴᴄʏ Tᴇxᴛ ₠",
-    numbers: "0123456789"
-  },
-  {
-    name: "Native 2",
-    key: "native_2",
-    sample: "ᎦᏗᏁፈᎩ ᏖᏋጀᏖ",
-    style: "ᎦᏗᏁፈᎩ ᏖᏋጀᏖ",
+    name: "Vintage",
+    key: "vintage",
+    sample: "𝕳𝖊𝖑𝖑𝖔",
+    style: "𝕬𝖇𝖈𝖉𝖊𝖋𝖌𝖍𝖎𝖏𝖐𝖑𝖒𝖓𝖔𝖕𝖖𝖗𝖘𝖙𝖚𝖛𝖜𝖝𝖞𝖟",
     numbers: "0123456789"
   }
 ];
 
-// Text conversion function
+// Enhanced text conversion function with better character mapping
 export function convertText(text, styleObj) {
   if (!text || !styleObj) return text;
   
@@ -647,25 +432,79 @@ export function convertText(text, styleObj) {
   const numbers = '0123456789';
   let result = '';
   
-  for (let char of text.toLowerCase()) {
+  for (let i = 0; i < text.length; i++) {
+    const char = text[i].toLowerCase();
+    
     if (alphabet.includes(char)) {
       const index = alphabet.indexOf(char);
-      if (index < styleObj.style.length) {
-        result += styleObj.style.charAt(index);
+      if (styleObj.style && index < styleObj.style.length) {
+        // For styles with separators, we need to handle them differently
+        if (styleObj.style.includes('҉') || styleObj.style.includes('⭐') || 
+            styleObj.style.includes('♥') || styleObj.style.includes('♦') ||
+            styleObj.style.includes('✨') || styleObj.style.includes('⚡') ||
+            styleObj.style.includes('👑') || styleObj.style.includes('🌸') ||
+            styleObj.style.includes('[') || styleObj.style.includes('(') ||
+            styleObj.style.includes('{') || styleObj.style.includes('⟨') ||
+            styleObj.style.includes('▲') || styleObj.style.includes('●') ||
+            styleObj.style.includes('■') || styleObj.style.includes('→') ||
+            styleObj.style.includes('~') || styleObj.style.includes('•') ||
+            styleObj.style.includes('|') || styleObj.style.includes('🌟') ||
+            styleObj.style.includes('🌌') || styleObj.style.includes('🌈') ||
+            styleObj.style.includes('❄️') || styleObj.style.includes('🌊') ||
+            styleObj.style.includes('▓') || styleObj.style.includes('♔')) {
+          
+          // Extract the pattern and apply it to the character
+          const patterns = styleObj.style.split(/[a-z]/);
+          if (patterns.length > 1) {
+            const prefix = patterns[0] || '';
+            const suffix = patterns[1] || '';
+            result += prefix + char + suffix;
+          } else {
+            result += styleObj.style.charAt(index) || char;
+          }
+        } else {
+          result += styleObj.style.charAt(index) || char;
+        }
       } else {
         result += char;
       }
     } else if (numbers.includes(char)) {
       const numIndex = numbers.indexOf(char);
-      if (numIndex < 10 && styleObj.numbers) {
-        result += styleObj.numbers.charAt(numIndex);
+      if (styleObj.numbers && numIndex < styleObj.numbers.length) {
+        // Handle number patterns similarly
+        if (styleObj.numbers.includes('҉') || styleObj.numbers.includes('⭐') ||
+            styleObj.numbers.includes('♥') || styleObj.numbers.includes('♦') ||
+            styleObj.numbers.includes('✨') || styleObj.numbers.includes('⚡') ||
+            styleObj.numbers.includes('👑') || styleObj.numbers.includes('🌸') ||
+            styleObj.numbers.includes('[') || styleObj.numbers.includes('(') ||
+            styleObj.numbers.includes('{') || styleObj.numbers.includes('⟨') ||
+            styleObj.numbers.includes('▲') || styleObj.numbers.includes('●') ||
+            styleObj.numbers.includes('■') || styleObj.numbers.includes('→') ||
+            styleObj.numbers.includes('~') || styleObj.numbers.includes('•') ||
+            styleObj.numbers.includes('|') || styleObj.numbers.includes('🌟') ||
+            styleObj.numbers.includes('🌌') || styleObj.numbers.includes('🌈') ||
+            styleObj.numbers.includes('❄️') || styleObj.numbers.includes('🌊') ||
+            styleObj.numbers.includes('▓') || styleObj.numbers.includes('♔')) {
+          
+          const patterns = styleObj.numbers.split(/[0-9]/);
+          if (patterns.length > 1) {
+            const prefix = patterns[0] || '';
+            const suffix = patterns[1] || '';
+            result += prefix + char + suffix;
+          } else {
+            result += styleObj.numbers.charAt(numIndex) || char;
+          }
+        } else {
+          result += styleObj.numbers.charAt(numIndex) || char;
+        }
       } else {
         result += char;
       }
     } else {
-      result += char;
+      // Keep spaces and special characters as they are
+      result += text[i];
     }
   }
   
   return result;
-} 
+}
